@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Noto+Sans+KR:wght@200;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    color: #333;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #fff;
+}
+
+img, div {
+    display: block;
+}
+
+
+
+.header {
+    height: 164px;
+    
+}
+
+.header .head {
+    width: 980px;
+    margin: 0 auto;
+    height: 112px;
+}
+
+.head .top {
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head .top .left {
+    display: flex;
+    gap: 37px;
+}
+
+.high-menu {
+    font-weight: 500;
+    display: flex;
+    gap: 18px;
+}
+
+.high-menu li:nth-child(2) a{
+    font-weight: 400;
+    color: #fff;
+    padding: 1px 12px;
+    background-color: #046FD9;
+    border-radius: 0 11px 0 11px;
+}
+
+.head .top .right {
+    display: flex;
+    gap: 25px;
+}
+
+.head .top .right .icon {
+    display: flex;
+    gap: 20px;
+    height: 23px;
+    padding: 4px 0;
+}
+
+.global-menu {
+    z-index: 1;
+    font-size: 13px;
+    font-weight: 200;
+    width: 161px;
+    color: #333;
+    background-color: #F8F8F8;
+    border: 1px solid #BFBFBF;
+    padding: 0 20px;
+    line-height: 34px;
+    height: 34px;
+    position: relative;
+}
+
+.global-menu>li>ul {
+    position: absolute;
+    width: 161px;
+    top: 32px;
+    left: -1px;
+    padding-left: 16px;
+    background-color: #fff;
+    border: 1px solid #BFBFBF;
+}
+
+.global-menu .select {
+    padding: 8px 0px;
+    width: 90%;
+    border-top: 1px solid #ddd;
+}
+
+.global-menu .select:first-child {
+    border-top: none;
+}
+
+
+
+.global-menu .select ul li a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+.global-menu .select ul li a img {
+    display: block;
+    width: 18px;
+    height: 12px;
+}
+
+
+.logo {
+    height: 28px;
+}
+
+.head .bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.head .bottom .menu {
+    display: flex;
+    gap: 15px;
+    color: #666;
+    font-weight: 300;
+}
+
+.head .bottom .menu a:hover {
+    color: #046FD9;
+}
+
+.box-login {
+    display: flex;
+    background-color: #F8F8F8;
+    border: 1px solid #BFBFBF;
+    padding: 2px 14px;
+    font-size: 14px;
+    color: #555;
+}
+
+.box-login a:first-child::after {
+    content: "|";
+    font-size: 1px;
+    margin: 0 14px;
+    color: #BFBFBF;
+}
+
+.header .gnb {
+    height: 52px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+.gnb .inner {
+    width: 980px;
+    margin: 0 auto;
+   
+}
+
+.gnb .inner ul {
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+}
