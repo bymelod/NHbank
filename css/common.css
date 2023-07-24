@@ -79,18 +79,29 @@ img, div {
     padding: 4px 0;
 }
 
-.global-menu {
+.global-menu{
     z-index: 1;
-    font-size: 13px;
-    font-weight: 200;
     width: 161px;
-    color: #333;
     background-color: #F8F8F8;
     border: 1px solid #BFBFBF;
-    padding: 0 20px;
-    line-height: 34px;
-    height: 34px;
     position: relative;
+}
+
+.global-menu>li>a {
+    font-size: 13px;
+    font-weight: 200;
+    color: #333;
+    padding: 0 21px;
+    line-height: 32px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.global-menu>li>a img {
+    width: 8px;
+    height: 5px;
 }
 
 .global-menu>li>ul {
@@ -98,22 +109,40 @@ img, div {
     width: 161px;
     top: 32px;
     left: -1px;
-    padding-left: 16px;
+    padding: 8px 12px 8px 12px;
     background-color: #fff;
     border: 1px solid #BFBFBF;
+    /* display: none; */
 }
 
 .global-menu .select {
-    padding: 8px 0px;
-    width: 90%;
-    border-top: 1px solid #ddd;
+    padding: 10px 8px;
+    border-top: 1px solid #eee;
 }
+
+.global-menu .select>a {
+    font-size: 13px;
+    font-weight: 200;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.global-menu .select>a img {
+    width: 6px;
+    height: 10px;
+}
+
 
 .global-menu .select:first-child {
     border-top: none;
 }
 
-
+.global-menu .select ul {
+    padding-top: 4px;
+}
 
 .global-menu .select ul li a {
     display: flex;
@@ -121,6 +150,8 @@ img, div {
     gap: 8px;
     line-height: 24px;
     font-size: 12px;
+    color: #444;
+    font-weight: 200;
 }
 
 .global-menu .select ul li a img {
@@ -129,6 +160,17 @@ img, div {
     height: 12px;
 }
 
+.global-menu .select:nth-child(3) a {
+    color: #046FD9;
+}
+
+.global-menu .select:nth-child(3) a:hover {
+    text-decoration: underline;
+}
+
+.global-menu .select:nth-child(4) a:hover {
+    text-decoration: underline;
+}
 
 .logo {
     height: 28px;
