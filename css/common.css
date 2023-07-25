@@ -30,9 +30,10 @@ img, div {
 
 
 
+/* header */
+
 .header {
     height: 164px;
-    
 }
 
 .header .head {
@@ -79,7 +80,7 @@ img, div {
     padding: 4px 0;
 }
 
-.global-menu{
+.global-menu {
     z-index: 1;
     width: 161px;
     background-color: #F8F8F8;
@@ -112,7 +113,11 @@ img, div {
     padding: 8px 12px 8px 12px;
     background-color: #fff;
     border: 1px solid #BFBFBF;
-    /* display: none; */
+    display: none;
+}
+
+.global-menu>li>ul.on {
+    display: block;
 }
 
 .global-menu .select {
@@ -213,13 +218,11 @@ img, div {
     height: 52px;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
-    
 }
 
 .gnb .inner {
     width: 980px;
     margin: 0 auto;
-   
 }
 
 .gnb .inner ul {
@@ -228,4 +231,118 @@ img, div {
     justify-content: space-between;
     align-items: center;
     font-size: 17px;
+}
+
+
+/* footer */
+
+.footer {
+    height: 232px;
+}
+
+.f-menu {
+    height: 65px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.f-menu .inner {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    line-height: 65px;
+    justify-content: space-between;
+}
+
+.footer .content {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 27px;
+    color: #555;
+}
+
+.footer .content .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .content .top .left {
+    display: flex;
+    font-weight: 200;
+    gap: 27px;
+}
+
+.footer .content .top .right {
+    display: flex;
+    gap: 40px;
+}
+
+.sns {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.f-site {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.f-site>li {
+    position: relative;
+    width: 162px;
+    height: 32px;
+    /* line-height: 30px; */
+    background-color: #F8F8F8;
+    border: 1px solid #bbb;
+    /* padding: 0 12px; */
+    z-index: 10;
+}
+
+.f-site>li>a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    line-height: 30px;  
+    padding: 0 12px;
+}
+
+.f-site>li>a img {
+    width: 8px;
+    height: 5px;
+}
+
+.f-site ul {
+    display: none;
+    position: absolute;
+    bottom: 30px;
+    left: -1px;
+    width: 162px;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    padding: 10px 0 10px 10px;
+}
+
+.f-site ul li {
+    padding: 2px 0;
+}
+
+.f-site ul li:hover {
+    text-decoration: underline;
+}
+
+.footer .bottom {
+    padding-top: 25px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.footer .bottom .addr {
+    display: flex;
+    gap: 22px;
+}
+
+.copy {
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
