@@ -108,7 +108,7 @@ img, div {
 .global-menu>li>ul {
     position: absolute;
     width: 161px;
-    top: 32px;
+    top: 34px;
     left: -1px;
     padding: 8px 12px 8px 12px;
     background-color: #fff;
