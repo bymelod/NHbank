@@ -1,28 +1,121 @@
 .section01 {
     width: 100%;
-    height: 627px;
+    height: 628px;
     position: relative;
-    /* background-color: #ddd; */
 }
+
 .section01 .inner {
     width: 980px;
     margin: 0 auto;
-    margin-top: 43px;
     z-index: 1;
+    position: relative;
 }
 
-.section01 .inner .slider {
-   height: 627px;
+.section01 .slider {
+    display: none;
 }
 
-.section01 .inner .slider img {
-    width: 580px;
-    object-fit: cover;
+.slide .item {
+    width: 603px;
+    height: 567px;
 }
+
+.section01 .tab {
+    position: absolute;
+    top: 108px;
+    right: 0;
+    width: 360px;
+    height: 453px;
+    background-color: #0758AE;
+    color: #fff;
+}
+
+.section01 .tab .top {
+    height: 160px;
+    background-color: #0369D1;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 44px;
+    text-align: center;
+    color: #fff;
+}
+
+.section01 .tab .top i {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.section01 .tab .bottom {
+    padding: 58px 20px;
+}
+
+.section01 .tab-tltle {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.section01 .tab-tltle h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.section01 .tab-tltle .page {
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    /* position: relative; */
+    color: #CBD6E8;
+}
+
+.section01 .tab-tltle .page .on {
+    font-weight: 900;
+}
+
+.section01 .tab-tltle .page .on::after {
+    align-items: center;
+    content: "";
+    border: 1px solid #6997CB;
+    margin: 0 11px;
+    font-size: 8px;
+    z-index: 11;
+    margin-bottom: 10px;
+}
+
+.section01 .tab-contents {
+    padding: 32px 0;
+    
+}
+
+.section01 .tab-contents .content {
+    display: flex;
+    gap: 40px;
+}
+
+.section01 .tab-contents li {
+    display: flex;
+    gap: 3px;
+    padding: 12px 0;
+    font-weight: 300;
+    color: #CBD6E8;
+    align-items: center;
+}
+
+.section01 .tab-contents li img {
+    width: 22px;
+    height: 22px;
+}
+
+.section01 .tab-contents .content02{
+    display: none;   
+}
+
+
 
 
 .section01 .base {
     width: 100%;
+    height: 358px;
     margin: 0 auto;
     position: absolute;
     bottom: 0;
@@ -32,6 +125,226 @@
 
 .section01 .base img {
     width: 100%;
-    height: 100%;
+}
 
+
+/* section02 */
+.section02 {
+    width: 900px;
+    height: 180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.section02 .link {
+    cursor: pointer;
+}
+
+.section02 i {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.section02 i img {
+    width: 70px;
+    height: 70px;
+}
+
+.section02 h4 {
+    font-weight: 300;
+    color: #444;
+}
+
+/* section03 */
+.section03 {
+    height: 680px;
+    background-color: #E9ECF2;
+}
+
+.section03 .inner {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 72px;
+}
+
+.section03 h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+.section03 .cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 52px 0;
+} 
+
+.section03 .card {
+    width: 298px;
+    height: 402px;
+    background-color: #fff;
+    padding: 56px 38px;
+    text-align: left;
+    letter-spacing: -0.5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.section03 .card:hover {
+    box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.section03 .card:first-child {
+    background-color: #9481B2;
+    color: #fff;
+}
+
+.section03 .card h3 {
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 500;
+    padding-bottom: 26px;
+}
+
+.section03 .card:first-child p {
+    font-size: 24px;
+}
+
+.section03 .card p {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+
+.section03 .card i {
+    position: absolute;
+    bottom: 39px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section03 .card .arrow {
+    position: absolute;
+    bottom: 27px;
+    right: 34px;
+}
+
+/* section04 */
+.section04 {
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 72px;
+    margin-bottom: 110px;
+    display: flex;
+    justify-content: space-between;
+    gap: 108px;
+}
+
+.section04 .left {
+    width: 436px;
+}
+
+.section04 .right {
+    width: 436px;
+    position: relative;
+}
+
+.section04 .title {
+    display: flex;
+    font-size: 28px;
+    line-height: 28px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.section04 .title span {
+    font-size: 16px;
+    color: #999;
+    font-weight: 500;
+    padding-left: 18px;
+}
+
+.section04 .title h3 {
+    align-items: center;
+    display: inline-block;
+}
+
+.section04 .title .arrow { 
+    width: 13px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.section04 .notice li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #555;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.section04 .notice li:hover {
+    text-decoration: underline;
+}
+
+.section04 .notice li img {
+    width: 18px;
+    height: 18px;
+}
+
+.linkbox {
+    margin-top: 58px;
+    width: 210px;
+    height: 52px;
+    line-height: 52;
+    border: 1px solid #DEDEDE;
+    font-size: 18px;
+    color: #111;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 32px;
+    align-items: center;
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.linkbox img {
+    width: 28px;
+    height: 26px;
+}
+
+.section04 .right .content h4 {
+    color: #555;
+    width: 60px;
+}
+
+.section04 .right .content {
+    display: flex;
+    gap: 38px;
+    padding-bottom: 40px;
+    line-height: 28px;
+}
+
+.section04 .right p {
+    color: #0758AE;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section04 .right p span {
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section04 .back-img {
+    position: absolute;
+    top: 50%;
+    right: 11px;
 }

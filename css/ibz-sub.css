@@ -1,0 +1,31 @@
+.tab-content .infos {
+    color: #4B4E5A;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.tab-content .infos h5 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #1766B4;
+}
+
+table {
+    border-collapse: collapse;
+    /* border-color: black; */
+    border-width: 1px;
+    width: 740px;
+    border-top: 2x solid #919BAA;
+    border-bottom: 1px solid #919BAA;
+  }
+  
+  th, td {
+    /* border: 1px solid black; */
+    padding: 5px;
+  }
+  
+  th {
+    background-color: #F8F8F9;
+    font-size: 14px;
+    font-weight: 500;
+  }

@@ -214,24 +214,95 @@ img, div {
     color: #BFBFBF;
 }
 
-.header .gnb {
+
+/* gnb */
+.header .wrap-gnb {
     height: 52px;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
 }
 
-.gnb .inner {
+.gnb {
     width: 980px;
     margin: 0 auto;
-}
-
-.gnb .inner ul {
     height: 52px;
+    line-height: 52px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 17px;
+    position: relative;
 }
+
+.gnb>li {
+   
+}
+
+
+.gnb .sub {
+    position: absolute;
+    top: 51px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    width: 100%;
+    padding-bottom: 59px;
+}
+
+.gnb .sub .inner {
+    width: 1080px;
+    min-height: 223px;
+    padding-bottom: 22px;
+    border: none;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    padding-right: 0;
+    text-align: left;
+}
+
+.gnb li ul {
+    display: none;
+}
+
+.gnb>ul {
+    position: absolute;
+    width: 980px;
+    top: 52px;
+    left: 0;
+    display: flex;
+
+}
+
+.gnb ul>li {
+    position: relative;
+}
+
+.gnb ul>li>a {
+    
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    display: inline-block;
+    text-decoration: none;
+    color: #111;
+    line-height: 50px;
+}
+
+.gnb .sub li {
+    position: absolute;
+    width: 980px;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+}
+
+
+
 
 
 /* footer */
@@ -286,6 +357,7 @@ img, div {
 .f-site {
     font-size: 14px;
     font-weight: 300;
+    cursor: pointer;
 }
 
 .f-site>li {
@@ -321,6 +393,10 @@ img, div {
     background-color: #fff;
     border: 1px solid #bbb;
     padding: 10px 0 10px 10px;
+}
+
+.f-site ul.on {
+    display: block;
 }
 
 .f-site ul li {

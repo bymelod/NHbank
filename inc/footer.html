@@ -21,15 +21,15 @@
                 <a href="#"><img src="../images/ico_footer_insta.png" alt="인스타아이콘"></a>
             </div>
             <ul class="f-site">
-                <li><a href="#">계열사/관련사이트<img src="../images/ico_sel_arrow_up.gif" alt="화살표"></a>
+                <li><a>계열사/관련사이트<img src="../images/ico_sel_arrow_up.gif" alt="화살표"></a>
                     <ul>
-                        <li><a href="#">농협중앙회</a></li>
-                        <li><a href="#">NH농협은행</a></li>
-                        <li><a href="#">NH농협금융지주</a></li>
-                        <li><a href="#">NH농협생명</a></li>
-                        <li><a href="#">NH농협손해보험</a></li>
-                        <li><a href="#">NH투자증권</a></li>
-                        <li><a href="#">NH-Amundi자산운용</a></li>
+                        <li><a>농협중앙회</a></li>
+                        <li><a>NH농협은행</a></li>
+                        <li><a>NH농협금융지주</a></li>
+                        <li><a>NH농협생명</a></li>
+                        <li><a>NH농협손해보험</a></li>
+                        <li><a>NH투자증권</a></li>
+                        <li><a>NH-Amundi자산운용</a></li>
                     </ul>
                 </li>
             </ul>
@@ -48,3 +48,10 @@
     </div>
 
 </div>
+
+<script>
+    $('.f-site>li').click(function () {
+          $('.f-site ul').toggleClass('on')
+      })
+
+</script>
