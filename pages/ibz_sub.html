@@ -6,8 +6,10 @@
     <title>IBZ맞춤뱅킹</title>
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/ibz.css.css">
+    <link rel="stylesheet" href="../css/ibz-sub.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -18,226 +20,247 @@
     <div class="header">
     </div>
     
-    <div class="menu"></div>
-
-    <div class="wrap">
-        <div class="locate">
-            <a>기업종합금융</a>>
-            <a>IBZ맞춤뱅킹</a>>
-            <a>통합CMS</a>>
-            <a>HanaroBranch/기관/기업</a>>
-            <a>HanaroBranch </a>
+    <div class="container">
+        <div class="cms-menu">
+            <h3>통합CMS</h3>
+            <ul class="high">
+                <li><a href="">HanaroBranch/기관/기업</a>
+                    <ul class="sub">
+                        <li><a href="">·HanaroBranch</a></li>
+                        <li><a href="">·UNi-Branch</a></li>
+                        <li><a href="">·R&D-Branch</a></li>
+                    </ul>
+                </li>
+                <li><a href="">HanaroCFO/Lite(중소기업)</a></li>
+                <li><a href="">HanarosERP</a></li>
+                <li><a href="">NH소상공인파트너</a></li>
+    
+            </ul>
+            
         </div>
-
-        <h2>Hanaro Branch</h2>
-
-        <div class="tab">
-            <div class="tab-title">
-                <h4>서비스소개</h4>
-                <h4>주요기능</h4>
+    
+        <div class="cms-wrap">
+            <div class="locate">
+                <a>기업종합금융</a> <i class="xi-angle-right-thin"></i>
+                <a>IBZ맞춤뱅킹</a> <i class="xi-angle-right-thin"></i>
+                <a>통합CMS</a> <i class="xi-angle-right-thin"></i>
+                <a>HanaroBranch/기관/기업</a> <i class="xi-angle-right-thin"></i>
+                <a>HanaroBranch</a>
             </div>
-
-            <div class="tab-content">
-                <div class="content content01">
-                    <div class="top-info">
-                        <div class="text">
-                            <img src="../images/cms_tit01.jpg" alt="">
-                            <img src="../images/cms_tit02.jpg" alt="">
-                            <h5><span>Hanaro Branch</span>란?</h5>
-                            <p>다양한 금융업무와 기업의 고유업무에 필요한<br>여러 가지 기능을 통합하여 기업내부에 설치되는<br>
-                                <span>NH농협의 맞춤형 자금관리시스템</span>입니다.
-                            </p>
-                        </div>
-                        <img src="../images/cms-img.jpg" alt="">
-                    </div>
-
-                    <div class="infos">
-                        <div class="info">
-                            <h5>· 기업고객의 고민</h5>
-                            <p>- 은행, 증권사, 카드사 등 모든 금융자산을 한눈에 확인할 수 없을까?</p>
-                            <p>- 관계사의 자금현황 파악 및 집행을 신속/정확하게 할 수 없을까?</p>
-                            <p>- 자금관리업무, 보고서작성 업무량이 과다한데 해소방법은?</p>
-                            <p>- 다양한 수납/지급 내역을 내부시스템과 연계하여 자동 전표처리 방법은?</p>
-                            <p>- 자금수지예측, 유동성분석을 자동화하고 실시간 보고서형태로 출력할 수 있을까?</p>
-                        </div>
-
-                        <div class="info">
-                            <h5>· Hanaro Branch 도입기관  :  2011년말 170개 기관</h5>
-                            <table>
-                                <tr>
-                                    <th>공공기관</th>
-                                    <td>한국전력공사, 한국교직원공제회, 한국환경공단, 한국농어촌공사</td>
-                                </tr>
-
-                                <tr>
-                                    <th>대학교</th>
-                                    <td>서울대, 경상대, 경인교대, 한국해양대, 서울과학기술대, 부산대산단</td>
-                                </tr>
-
-                                <tr>
-                                    <th>일반기업</th>
-                                    <td>삼천리, KT&G, 한국토지신탁, 금호렌터카, STX조선해양, 삼양사</td>
-                                </tr>
-                            </table>
-                        </div>
-
-                        <div class="info">
-                            <h5>· 도입효과</h5>
-                            <p>- 잔액확인을 위해 개별은행에 접속할 필요 없이 한번에 확인가능</p>
-                            <p>- 여러계좌에 흩어진 Idle Money를 모아서 효과적으로 자금운용 가능</p>
-                            <p>- 대금지급 거래처 예금주 성명 확인으로 이체오류 방지</p>
-                            <p>- 수백건씩 입금되는 수납내역 전표처리를 몇 분이면 처리</p>
-                            <p>- 경영진이 원하는 살아있는 자금보고서를 클릭 한번으로 완성</p>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <div class="content content02">
-                    <div class="infos">
-                        <div class="info">
-                            <h5>· 하나로브랜치 주요 기능</h5>
-                            <table>
-                                <tr>
-                                    <th>구분</th>
-                                    <th>주요 기능</th>
-                                </tr>
-
-                                <tr>
-                                    <th>금융서비스</th>
-                                    <td>
-                                        <ul>
-                                            <li>모든 금융기관의 금융자산 실시간 원클릭 조회 가능</li>
-                                            <li>다양한 형태의 대금수납 기능(일반계좌, 가상계좌, CMS 등)</li>
-                                            <li>다양한 집금방식 지원(전액집금식, 잔액유지식, 특정계좌지정)</li>
-                                            <li>모든 은행의 자금을 특정 모계좌로 자동 집금 가능</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <th>법인카드관리</th>
-                                    <td>
-                                        <ul>
-                                            <li>법인카드 정보/사용자 관리</li>
-                                            <li>법인카드 승인 및 청구내역조회, 사용내역 모니터링</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <th>업무자동화</th>
-                                    <td>
-                                        <ul>
-                                            <li>예적금 입/출금전표 자동생성</li>
-                                            <li>자금 입출금 내역을 기업의 회계시스템으로 자동 반영</li>
-                                            <li>자금신청 및 자금배정 업무자동화를 통한 업무효율성 향상</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <th>보고서 자동생성</th>
-                                    <td>
-                                        <ul>
-                                            <li>금융자산에 대한 다양한 실시간 보고서 제공</li>
-                                            <li>기업이 요구하는 양식의 맞춤형 자금보고서 제공</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <th>내부통제(사고예방)</th>
-                                    <td>
-                                        <ul>
-                                            <li>담당자별, 사업장별, 금액별 엄격한 이체권한 설정 가능</li>
-                                            <li>기존 결재방식으로 자금지급 제한 가능</li>
-                                            <li>예금주 성명조회 기능으로 이체오류 방지</li>
-                                            <li>계좌내역 상시 모니터링으로 사고예방 기능 강화</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-
-                            </table>
-                        </div>
-
-                        <div class="info">
-                            <h5>· 하나로브랜치 서비스메뉴 : 400개 금융서비스 + 특화서비스(기업요구)</h5>
-                            <table>
-                                <tr>
-                                    <th>구분</th>
-                                    <th>주요 기능</th>
-                                </tr>
-
-                                <tr>
-                                    <th>금융관리</th>
-                                    <td>제1금융권 모니터링, 제2금융권 모니터링, 해외계좌모니터링, 자금집금/배분, 어음관리</td>
-                                </tr>
-
-                                <tr>
-                                    <th>대금수납</th>
-                                    <td>일반계좌수납, 가상계좌수납, 외상매출채권, 어음수탁현황, B2B매출내역관리</td>
-                                </tr>
-
-                                <tr>
-                                    <th>대금지급</th>
-                                    <td>
-                                        <ul>
-                                            <li>즉시(예약)이체, 대량이체(일반이체,급여이체), 세금/지로납부</li>
-                                            <li>관계사 즉시/대량이체, 대량예금주조회</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <th>법인카드관리</th>
-                                    <td>수출입업무, 무역자동화, 환율조회, 외화송금, 특화서비스</td>
-                                </tr>
-
-                                <tr>
-                                    <th>자금보고서</th>
-                                    <td>
-                                        <ul>
-                                            <li>기초정보관리, 승인내역관리, 청구내역관리, 부가세액공제</li>
-                                            <li>제신고(카드발급/재발급,한도변경,비밀번호변경,사용등록 등)</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <th>연구비관리</th>
-                                    <td>
-                                        <ul>
-                                            <li>금융거래현황보고서, 자금시재보고서, 잔액보고서, 자금일보</li>
-                                            <li>이체처리결과보고서, 경제지표보고서, MMF/수익증권보고서, 맞춤형 자금보고서</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <th>기초정보관리</th>
-                                    <td>
-                                        <ul>
-                                            <li>기초코드관리, 기본정보관리, 금융상품관리, 결재관리(결재라인, 결재자 설정/ 변경)</li>
-                                            <li>그룹권한관리(담당자별, 사업장별, 금액별, 업무종류별)</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <th>ADMIN(관리자)</th>
-                                    <td>운영관리, 시스템관리, 서비스관리</td>
-                                </tr>
-
-
-                            </table>
-                        </div>
+    
+            <h2>Hanaro Branch</h2>
+    
+            <div class="tab">
+                <div class="tab-title-wrap">
+                    <div class="title">
+                        <h4>서비스소개</h4>
+                        <h4>주요기능</h4>
                     </div>
                 </div>
+    
+                <div class="tab-content">
+                    <div class="content content01">
+                        <div class="top-info">
+                            <div class="text">
+                                <img class="img01" src="../images/cms_tit01.jpg" alt="">
+                                <img class="img02" src="../images/cms_tit02.jpg" alt="">
+                                <h5><span>Hanaro Branch</span>란?</h5>
+                                <p>다양한 금융업무와 기업의 고유업무에 필요한<br>여러 가지 기능을 통합하여 기업내부에 설치되는<br>
+                                    <span>NH농협</span>의 <span>맞춤형 자금관리시스템</span>입니다.
+                                </p>
+                            </div>
+                            <div class="bgi"><img src="../images/cms-img.jpg" alt=""></div>
+                        </div>
+    
+                        <div class="infos">
+                            <div class="info">
+                                <h5>· 기업고객의 고민</h5>
+                                <p>- 은행, 증권사, 카드사 등 모든 금융자산을 한눈에 확인할 수 없을까?</p>
+                                <p>- 관계사의 자금현황 파악 및 집행을 신속/정확하게 할 수 없을까?</p>
+                                <p>- 자금관리업무, 보고서작성 업무량이 과다한데 해소방법은?</p>
+                                <p>- 다양한 수납/지급 내역을 내부시스템과 연계하여 자동 전표처리 방법은?</p>
+                                <p>- 자금수지예측, 유동성분석을 자동화하고 실시간 보고서형태로 출력할 수 있을까?</p>
+                            </div>
+    
+                            <div class="info">
+                                <h5>· Hanaro Branch 도입기관  :  2011년말 170개 기관</h5>
+                                <table class="table01">
+                                    <tr>
+                                        <th>공공기관</th>
+                                        <td>한국전력공사, 한국교직원공제회, 한국환경공단, 한국농어촌공사</td>
+                                    </tr>
+    
+                                    <tr>
+                                        <th>대학교</th>
+                                        <td>서울대, 경상대, 경인교대, 한국해양대, 서울과학기술대, 부산대산단</td>
+                                    </tr>
+    
+                                    <tr>
+                                        <th>일반기업</th>
+                                        <td>삼천리, KT&G, 한국토지신탁, 금호렌터카, STX조선해양, 삼양사</td>
+                                    </tr>
+                                </table>
+                            </div>
+    
+                            <div class="info">
+                                <h5>· 도입효과</h5>
+                                <p>- 잔액확인을 위해 개별은행에 접속할 필요 없이 한번에 확인가능</p>
+                                <p>- 여러계좌에 흩어진 Idle Money를 모아서 효과적으로 자금운용 가능</p>
+                                <p>- 대금지급 거래처 예금주 성명 확인으로 이체오류 방지</p>
+                                <p>- 수백건씩 입금되는 수납내역 전표처리를 몇 분이면 처리</p>
+                                <p>- 경영진이 원하는 살아있는 자금보고서를 클릭 한번으로 완성</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+    
+                    <div class="content content02">
+                        <div class="infos">
+                            <div class="info">
+                                <h5>· 하나로브랜치 주요 기능</h5>
+                                <table class="table02">
+                                    <tr>
+                                        <th width="150px">구분</th>
+                                        <th>주요 기능</th>
+                                    </tr>
+    
+                                    <tr>
+                                        <th>금융서비스</th>
+                                        <td>
+                                            <ul>
+                                                <li>모든 금융기관의 금융자산 실시간 원클릭 조회 가능</li>
+                                                <li>다양한 형태의 대금수납 기능(일반계좌, 가상계좌, CMS 등)</li>
+                                                <li>다양한 집금방식 지원(전액집금식, 잔액유지식, 특정계좌지정)</li>
+                                                <li>모든 은행의 자금을 특정 모계좌로 자동 집금 가능</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+    
+                                    <tr>
+                                        <th>법인카드관리</th>
+                                        <td>
+                                            <ul>
+                                                <li>법인카드 정보/사용자 관리</li>
+                                                <li>법인카드 승인 및 청구내역조회, 사용내역 모니터링</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+    
+                                    <tr>
+                                        <th>업무자동화</th>
+                                        <td>
+                                            <ul>
+                                                <li>예적금 입/출금전표 자동생성</li>
+                                                <li>자금 입출금 내역을 기업의 회계시스템으로 자동 반영</li>
+                                                <li>자금신청 및 자금배정 업무자동화를 통한 업무효율성 향상</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+    
+                                    <tr>
+                                        <th>보고서 자동생성</th>
+                                        <td>
+                                            <ul>
+                                                <li>금융자산에 대한 다양한 실시간 보고서 제공</li>
+                                                <li>기업이 요구하는 양식의 맞춤형 자금보고서 제공</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+    
+                                    <tr>
+                                        <th>내부통제(사고예방)</th>
+                                        <td>
+                                            <ul>
+                                                <li>담당자별, 사업장별, 금액별 엄격한 이체권한 설정 가능</li>
+                                                <li>기존 결재방식으로 자금지급 제한 가능</li>
+                                                <li>예금주 성명조회 기능으로 이체오류 방지</li>
+                                                <li>계좌내역 상시 모니터링으로 사고예방 기능 강화</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+    
+                                </table>
+                            </div>
+    
+                            <div class="info">
+                                <h5>· 하나로브랜치 서비스메뉴 : 400개 금융서비스 + 특화서비스(기업요구)</h5>
+                                <table>
+                                    <tr>
+                                        <th>구분</th>
+                                        <th>주요 기능</th>
+                                    </tr>
+    
+                                    <tr>
+                                        <th>금융관리</th>
+                                        <td>제1금융권 모니터링, 제2금융권 모니터링, 해외계좌모니터링, 자금집금/배분, 어음관리</td>
+                                    </tr>
+    
+                                    <tr>
+                                        <th>대금수납</th>
+                                        <td>일반계좌수납, 가상계좌수납, 외상매출채권, 어음수탁현황, B2B매출내역관리</td>
+                                    </tr>
+    
+                                    <tr>
+                                        <th>대금지급</th>
+                                        <td>
+                                            <ul>
+                                                <li>즉시(예약)이체, 대량이체(일반이체,급여이체), 세금/지로납부</li>
+                                                <li>관계사 즉시/대량이체, 대량예금주조회</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+    
+                                    <tr>
+                                        <th>법인카드관리</th>
+                                        <td>수출입업무, 무역자동화, 환율조회, 외화송금, 특화서비스</td>
+                                    </tr>
+    
+                                    <tr>
+                                        <th>자금보고서</th>
+                                        <td>
+                                            <ul>
+                                                <li>기초정보관리, 승인내역관리, 청구내역관리, 부가세액공제</li>
+                                                <li>제신고(카드발급/재발급,한도변경,비밀번호변경,사용등록 등)</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+    
+                                    <tr>
+                                        <th>연구비관리</th>
+                                        <td>
+                                            <ul>
+                                                <li>금융거래현황보고서, 자금시재보고서, 잔액보고서, 자금일보</li>
+                                                <li>이체처리결과보고서, 경제지표보고서, MMF/수익증권보고서, 맞춤형 자금보고서</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+    
+                                    <tr>
+                                        <th>기초정보관리</th>
+                                        <td>
+                                            <ul>
+                                                <li>기초코드관리, 기본정보관리, 금융상품관리, 결재관리(결재라인, 결재자 설정/ 변경)</li>
+                                                <li>그룹권한관리(담당자별, 사업장별, 금액별, 업무종류별)</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+    
+                                    <tr>
+                                        <th>ADMIN(관리자)</th>
+                                        <td>운영관리, 시스템관리, 서비스관리</td>
+                                    </tr>
+    
+    
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            
         </div>
-        
     </div>
+
 
     <div class="footer">  
     </div>
