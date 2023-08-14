@@ -235,22 +235,24 @@ img, div {
 .gnb {
     width: 980px;
     margin: 0 auto;
-    height: 52px;
-    line-height: 52px;
     display: flex;
-    justify-content: space-between;
     gap: 61px;
-    align-items: center;
-    font-size: 17px;
     position: relative;
+    
+}
+
+.gnb>li>a {
+    
+    line-height: 52px;
 }
 
 .gnb ul {
+    /* display: none; */
     position: absolute;
-
+    top: 52px;
+    left: 0;
+    width: 100%;
 }
-
-
 
 
 /* footer */
