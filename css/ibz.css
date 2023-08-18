@@ -56,18 +56,6 @@
     cursor: pointer;
 } 
 
-.section01 .link:nth-child(1),
-.section01 .link:nth-child(3)
- {
-    border-left: none;
-}
-
-.section01 .link:nth-child(3),
-.section01 .link:nth-child(4)
- {
-    border-bottom: none;
-}
-
 .section01 .link:hover {
     color: #046fd9;
     

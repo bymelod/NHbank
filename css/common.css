@@ -249,7 +249,7 @@ img, div {
     padding: 12px 20px;
 }
 
-.gnb .inner>ul>li:nth-child(2):hover {
+.gnb .inner>ul>li:hover {
     background-color: #046FD9;
     color: #fff;
 }
