@@ -249,10 +249,10 @@ img, div {
     padding: 12px 20px;
 }
 
-.gnb .inner>ul>li:hover {
+/* .gnb .inner>ul>li:hover {
     background-color: #046FD9;
     color: #fff;
-}
+} */
 
 .gnb .sub-wrap {
     z-index: 100;
@@ -264,7 +264,6 @@ img, div {
     padding: 20px 0;
     display: flex;
     box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
-    display: none;
 }
 
 .gnb .sub {
@@ -274,6 +273,15 @@ img, div {
     grid-template-columns: repeat(4,2fr);
     gap: 20px;
 }
+
+/* .gnb .sub-li {
+    position: absolute;
+    display: none;
+    top: 52px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+} */
 
 .gnb .sub-li li h4 {
     font-size: 16px;
